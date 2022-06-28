@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMANDOS UTEIS</title>
+</head>
+<body>
+    <h1>Texto em h1</h1>
+    <h2>Texto em h2</h2>
+    <h3>Texto em h3</h3>
+    <h4>Texto em h4</h4>
+    <h5>Texto em h5</h5>
+    <h6>Texto em h6</h6>
+
+
+
+<!--LINK-->
+    <p>Link externo na mesma aba <a href="https://www.google.com/">CLICK</a></p>
+    <!--Usado para referenciar um link dentro do proprio site-->
+
+    <p>Link externo na em outra aba pagina <a href="https://www.google.com/" target="_blank" rel="external">CLICK</a></p>
+    <!--Usado quando se esta referenciando outro site externo ao seu-->
+    
+<!--LINK-->
+
+
+
+<!--MANTENDO FORMATAÇÃO-->
+
+    <p>Mantedo a formatação do txto com a tag &lt;pre&gt; e a tag &lt;code&gt; para mostrar que é um codigo</p>
+    <pre> <!--mantem a formatação-->
+        <code>
+    num int(input('Digite um número'))
+    if num % 2 == 0:
+        print(f'O numero {num} é PAR')
+    else:
+        print(f'O numero {num} é IMPAR')
+    print('Fim do programa')
+        </code>
+    </pre>
+
+<!--MANTENDO FORMATAÇÃO-->
+
+
+
+<!--CISTAÇÕES-->
+
+    <p>Como diria o pai  de um amigo: <q>o computado é um burro muito rapido</q></p>
+    <!--Uma citação o ideal é utilizar a tag <q> ao inves de apenas ""-->
+
+    <p>Segundo Jeff Noble, no seu livro HTML para Leigos:</p>
+    <blockquote cite="https://insita"> <!--o link de onde foi pego a referencia pos isso vai auxiliar nos buscadores web - esse link não aparece no site-->
+
+    <p><abbr title="HyperText Markup Langue">HTML</abbr> e <abbr title="Cascading style sheets">CSS</abbr></p>
+    <!-- <abbr title=""></abbr> Pode ser usado em abreviaçoes para indicar o significado em um mini pop-up para o usuario-->
+
+<!--CISTAÇÕES-->
+
+
+
+<!--LISTAS-->
+    <h2>Trabalhando com listas</h2>
+    <h3>Listas Ordenadas</h3><!-- Use a tag ol para lista rdenadas-->
+    <ol type="1"><!--1 A a I i-->
+        <li>Acordar</li>
+        <li>Levantar</li>
+        <li>Escovar os dentes</li>
+        <li>Tomar café da manhã</li>
+        <li>Ir trabalhar</li>
+    </ol>
+
+    <h3>Lista Não Ordenada</h3><!-- use a tag ul paralista não ordenadas-->
+    <ul type="square"><!--disc circle square-->
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Tomate</li>
+        <li>Manteiga</li>
+        <li>Arroz</li>
+        <li>Feijão</li>
+    </ul>
+
+    <h3>Lista com Sub tipo</h3>
+    <ol type="1">
+        <li>Item 1</li>
+        <ol type="a">
+            <li>sub 1</li>
+            <li>sub 2</li>
+            <li>sub 3</li>
+        </ol>
+        <li>Itens 2</li>
+        <ol type="a" start="4">
+            <li>sub 4</li>
+            <li>sub 5</li>
+            <li>sub 6</li>
+
+        </ol>
+    </ol>
+<!--LISTAS-->
+
+
+
+<!--INSERINDO IMAGENS-->
+    <p>&lt;escreve dentro dos sinais&gt;</p>
+    <p>Abaixo você vai ver uma imagem que esta na mesma pasta.</p>
+    <img src="logo-html-200.png" alt="Logo  HTML5">
+    <p>Podemos tambem carregar imagens que estão em sub-pastas</p>
+    <img src="imagens/logo-css-200.png" alt="Logo CSS3">
+    <p>Tambem podemos carregar imagens externas</p>
+    <img src="http://beta.itexto.com.br/wp-content/uploads/2017/08/logotipo.png" alt="Logo java script">
+<!--INSERINDO IMAGENS-->
+</body>
+</html>
