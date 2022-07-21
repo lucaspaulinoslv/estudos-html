@@ -1,0 +1,45 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    /*
+    Medidas Absolutas
+    cm - Centimetro
+    mm - Milimetro
+    in - Polegada
+    px - Pixel
+    pt - Ponto
+    pc - Paica
+
+    Medidas Relativas
+    em - Medida relativa ao tamanho natural da fonte
+    ex - Relativo a altura X de uma fonte 
+    rem - relativo a fonte configurada no body
+    vw - Relatico a largura da tela
+    vr - Relativo a altura da tela
+    % - 
+
+    w3c recomenda o uso do px ou em
+
+    16px geralmente é o tamanho de 1em
+    
+    
+
+    exemplo
+    h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 3em;
+    font-style: italic;
+    }
+    como compilar em 1 argumento use a tag font na ordem abaixo
+    font-style -> font-weight -> font-size -> font-family
+    
+    EXEMPLO
+    font italic bold 3em 'Courier New', Courier, monospace;
+
+
+
+
+    */
+
+   
+}

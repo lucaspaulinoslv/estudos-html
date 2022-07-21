@@ -1,0 +1,27 @@
+@charset "UTF-8";
+*{
+    font-family: Arial, Helvetica, sans-serif;/*altera a fonte de todo conteudo da pagina*/
+
+}
+body{
+    background-image: linear-gradient(to right, #FFB03B, #FFF0A5);/*Cria um degrade em toda pagina*/
+}
+main{
+    background-color: white;/*colocndo for no fundo do main*/
+    width: 600px; /*largura*/
+    padding: 10px;/*espaõ interno "sangria"*/
+    margin: auto; /*Centraliza na pagina*/
+    border-radius: 10px;/*arredonda os cantos*/
+    box-shadow: 5px 5px 15px #8e28007e;/*Cria uma Sombra*/
+}
+h1{
+    color: #FFB03B;/*Coloa cor*/
+    text-align: center; /*Centraliza o texto*/
+    text-shadow: 1px 1px 2px #8e28007e;/*Cria uma Sombra*/
+}
+h2{
+    color: #5db889;/*Coloa cor*/
+}
+p{
+    text-align: justify;/*todos os paragrafos estão justificados*/
+}
