@@ -1,0 +1,23 @@
+@charset "UTF-8"; /*evita conflito com acentiações*/
+
+/*Inserindo fonte proprias*/
+@font-face {
+    font-family: 'Nome';
+    src: url('fonte.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+/*
+    Tipos de format()
+        - opentype (otf)
+        - truetype (ttf)
+        - embedded-opentype
+        - truetype-aat (apple advanced typography)
+        -svg
+*/
+}
+/*Importando fontes do google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+body{
+    background-image: linear-gradient(to right, #FFB03B, #FFF0A5);/*Cria um degrade em toda pagina*/
+}
