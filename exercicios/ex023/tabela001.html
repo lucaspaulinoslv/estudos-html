@@ -11,9 +11,10 @@
         }
         table{
             width: 400px;
+            height: 400px;
             border-collapse: collapse;
             font-weight: bolder;
-            text-align: center;
+            
         }
         tr.destaque{
             background-color: rgba(154, 163, 163, 0.781);
@@ -22,6 +23,11 @@
         td{
             border: 2px solid black;
             padding: 10px;
+            text-align: center;/*Alinhamento Horizintal*/
+            vertical-align: top;
+        }
+        .numero{
+            text-align: right;
         }
     </style>
 </head>
@@ -43,12 +49,12 @@
         <tr class="destaque"><!--Segunda Linha-->
             <td>A2</td>
             <td>B2</td>
-            <td>C2</td>
+            <td class="numero">C2</td>
         </tr>
         <tr><!--Terceira Linha-->
             <td>A3</td>
             <td>B3</td>
-            <td>C3</td>
+            <td class="numero">C3</td>
         </tr>
         <tr class="destaque"><!--Quarta Linha-->
             <td>A4</td>
