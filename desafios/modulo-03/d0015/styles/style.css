@@ -37,3 +37,19 @@ iframe#tela{
     height: 471px;
 
 }
+section#redes-sociais{
+    text-align: right;
+}
+section#redes-sociais > a > img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.589);
+    box-sizing: border-box;/*faz com que a borda faça parte da caixa evitando que se mova no comando hover abaixo*/
+}
+section#redes-sociais img:hover{
+    border: 2px solid white;
+    transform: translate(-5px, -5px);
+    transition: 0.3s;
+    box-shadow: 5px 5px 10px black;
+}
