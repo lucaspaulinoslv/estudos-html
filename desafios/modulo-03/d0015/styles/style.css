@@ -15,8 +15,8 @@ main{
 }
 body{
     background: url('../images/fundo-madeira.jpg') no-repeat top center;
-    background-size: cover;
-    background-attachment: fixed;
+    background-size: cover; /*ajusta a imagem e evita que apareça o fundo*/
+    background-attachment: fixed;/*faz o fundo ser travado sem rolagem*/
 }
 section#telefone{
     height: 627px;
